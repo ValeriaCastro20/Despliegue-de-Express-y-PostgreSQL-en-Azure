@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/REEMPLAZAR_USUARIO/REEMPLAZAR_REPOSITORIO:sha-REEMPLAZAR_COMMIT
+          image: ghcr.io/valeriacastro20/despliegue-de-express-y-postgresql-en-azure:sha-fb57f5733ddaa2182592602890cf3438fec38f13
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
